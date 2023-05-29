@@ -13,6 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+      </head>
       <body className={inter.className}>
         <Navbar />
         {children}
