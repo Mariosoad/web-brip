@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 import './promo.css'
 
 export default function Promo() {
@@ -6,9 +6,15 @@ export default function Promo() {
         <>
             <div className='container-promo'>
                 <div className='child-container-promo'>
-                    <img width={350} height={250} className='brip-promo-img' src='./travel-1.jpg' />
-                    <img width={350} height={250} className='brip-promo-img' src='./travel-2.webp' />
-                    <img width={350} height={250} className='brip-promo-img' src='./travel-3.jpg' />
+                    <Link href="#">
+                        <img width={400} height={240} className='brip-promo-img' src='./promo-brip-1.jpg' />
+                    </Link>
+                    <Link href="#">
+                        <img width={400} height={240} className='brip-promo-img' src='./promo-brip-1.jpg' />
+                    </Link>
+                    <Link href="#">
+                        <img width={400} height={240} className='brip-promo-img' src='./promo-brip-1.jpg' />
+                    </Link>
                 </div>
                 <div className='container-call-agente'>
                     <div className='child-container-call-agente'>
@@ -19,7 +25,7 @@ export default function Promo() {
                                 <p>Accede a nuestros canales y recibe una atención exclusiva para planificar tu viaje </p>
                             </div>
                         </div>
-                        <button className='btn-call-agente'> Ver canales </button>
+                        <Link className='btn-call-agente' href="#">Ver canales</Link>
                     </div>
                 </div>
             </div>
