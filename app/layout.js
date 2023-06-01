@@ -1,6 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navbar from '@/components/Navbar/Navbar'
+import Navigation from '@/components/Navbar/Navigation'
 import Footer from '@/components/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
       </head>
       <body className={inter.className}>
-        <Navbar />
+        <Navigation />
         {children}
         <Footer />
       </body>

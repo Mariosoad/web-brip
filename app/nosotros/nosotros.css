@@ -1,23 +1,88 @@
-.container-nosotros{
-    width: 100%;
+.container-nosotros {
+    width: 85%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 100px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 40px;
+    row-gap: 20px;
 }
 
-.child-container-nosotros{
-    width: 80%;
-    height: 400px;
+.nosotros-tittle-section {
+    text-align: center;
+}
+
+.nosotros-tittle-section h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: #262626;
+}
+
+.nosotros-tittle-section p {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.child-container-nosotros {
+    width: 85%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 20px;
+}
+.nextui-collapse--closed {
+    border-bottom: 1px solid #0089F3 !important;
 }
 
-.card-info-nosotros{
+.nextui-collapse--open {
+    border-bottom: 1px solid #0089F3 !important;
+}
+
+.nextui-c-fUXRSc path {
+    stroke: #0089F3 !important;
+}
+
+.container-dropdow {
+    width: 60% !important;
+}
+
+.container-dropdow h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.container-dropdow p {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 400;
+}
+
+.img-preg-frecuentes {
+    width: 40%;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-preg-frecuentes img {
+    width: 80%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+
+.card-info-nosotros {
     width: 32%;
     height: 100%;
     padding: 40px 30px;

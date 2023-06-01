@@ -1,6 +1,14 @@
+#Hero{
+    width: 85%;
+    margin: auto;
+
+    /* background-image: url('http://localhost:3000/nube-1.png'); */
+}
+
 .brip-hero-slide-img{
     width: 100%;
-    height: 90vh;
+    height: 80vh;
+    border-radius: 10px;
 }
 
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{

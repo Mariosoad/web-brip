@@ -1,13 +1,21 @@
 import './nosotros.css'
 
+import Dropdown from './dropdown'
+
 export default function Nosotros() {
     return (
         <>
             <div className='container-nosotros'>
-                <h2>Compra con Briptravel</h2>
-
+                <div className='nosotros-tittle-section'>
+                    <h2>Descubre el mundo con Briptravel</h2>
+                    <p>Tenga en cuenta todas nuestras recomendaciones y tips a la hora viajar!</p>
+                </div>
                 <div className='child-container-nosotros'>
-                    <div className='card-info-nosotros'>
+                    <Dropdown />
+                    <div className='img-preg-frecuentes'>
+                        <img width={350} height={420} src='./img-preg-frecuentes.jpg' />
+                    </div>
+                    {/* <div className='card-info-nosotros'>
                         <div>
                             <div>
                                 <h3>¿Porque elegirnos?</h3>
@@ -22,7 +30,6 @@ export default function Nosotros() {
                             </div>
                         </div>
                     </div>
-
                     <div className='card-info-nosotros'>
                         <div>
                             <div>
@@ -36,7 +43,6 @@ export default function Nosotros() {
                             </div>
                         </div>
                     </div>
-
                     <div className='card-info-nosotros'>
                         <div>
                             <div>
@@ -51,7 +57,7 @@ export default function Nosotros() {
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

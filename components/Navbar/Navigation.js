@@ -1,8 +1,8 @@
-import Link from "next/link"
+
 import Image from "next/image"
 import './navbar.css'
 
-export default function Navbar() {
+export default function Navigation() {
 
   return (
     <div className="container-navigation">

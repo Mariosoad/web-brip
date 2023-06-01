@@ -7,13 +7,13 @@ export default function Promo() {
             <div className='container-promo'>
                 <div className='child-container-promo'>
                     <Link href="#">
-                        <img width={400} height={240} className='brip-promo-img' src='./promo-brip-1.jpg' />
+                        <img width={400} height={220} className='brip-promo-img' src='./promo-brip-1.jpg' />
                     </Link>
                     <Link href="#">
-                        <img width={400} height={240} className='brip-promo-img' src='./promo-brip-1.jpg' />
+                        <img width={400} height={220} className='brip-promo-img' src='./promo-brip-1.jpg' />
                     </Link>
                     <Link href="#">
-                        <img width={400} height={240} className='brip-promo-img' src='./promo-brip-1.jpg' />
+                        <img width={400} height={220} className='brip-promo-img' src='./promo-brip-1.jpg' />
                     </Link>
                 </div>
                 <div className='container-call-agente'>

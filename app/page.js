@@ -20,9 +20,6 @@ export default function Home() {
         <Nosotros />
       </section>
 
-      <br></br>
-      <br></br>
-      <br></br>
     </main>
   )
 }

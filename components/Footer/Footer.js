@@ -12,15 +12,20 @@ export default function Footer() {
                     <button className='btn-newsletter'>¡Recibir ofertas!</button>
                 </div>
                 <div className='child-container-footer'>
-                    <Image width="80" height="80" src="/logo-briptravel.png" alt="logo Briptravel" />
+                    {/* <Image width="80" height="80" src="/logo-briptravel.png" alt="logo Briptravel" /> */}
                     <div className='container-info-footer'>
                         {/* <div>
                             <p>Tu agencia de viajes en todo el mundo.</p>
                         </div> */}
                         <div>
                             <h4><strong>¿Necesitas ayuda?</strong></h4>
-                            <div className='flex-brip'> <img width={32} height={18} src="./icon-peru.png" /> +51 14800534</div>
-                            <div className='flex-brip'> <img width={32} height={34} src="./icon-arg.svg" /> +54 1152638334</div>
+                            <div className='flex-brip'><a href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0">
+                                <img width={32} height={18} src="./icon-peru.png" />
+                                +51 14800534</a>
+                            </div>
+                            <div className='flex-brip'> <img width={32} height={34} src="./icon-arg.svg" />
+                                <a href="https://api.whatsapp.com/send/?phone=5491152638334&amp;text&amp;type=phone_number&amp;app_absent=0">+54 1152638334</a>
+                            </div>
                         </div>
                         <div>
                             <h4><strong>Contactanos</strong></h4>
