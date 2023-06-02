@@ -1,6 +1,6 @@
 .container-navigation {
     width: 100%;
-    height: 110px;
+    height: 100px;
     padding: 20px 0px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,10 @@
     position: fixed;
     top: 0px;
     z-index: 9999;
-    backdrop-filter: blur(20px);
+    background-color: rgb(255 255 255 / 85%);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    backdrop-filter: blur(5px);
 }
 
 .navigation {
@@ -17,14 +20,10 @@
     max-width: 85%;
     height: 100%;
     padding: 20px;
-    border-radius: 10px;
-    background-color: rgb(255 255 255 / 30%);
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    backdrop-filter: blur(20px);
 }
 
 .nav-container {
@@ -61,4 +60,21 @@ ul li:hover {
     border-radius: 10px;
     color: white;
     font-weight: 500;
+}
+
+
+
+
+
+@media (max-width: 412px) {
+    .container-navigation {
+        width: 100%;
+        height: 100px;
+    }
+
+    .navigation {
+        width: 100%;
+        max-width: 100%;
+    }
+
 }

@@ -8,8 +8,10 @@ export default function Footer() {
             <footer className='container-footer'>
                 <div className='container-newsletter'>
                     <p>Ofertas exclusivas por email</p>
-                    <input placeholder='Ingrese su email' />
-                    <button className='btn-newsletter'>¡Recibir ofertas!</button>
+                    <div className='child-container-newsletter'>
+                        <input placeholder='Ingrese su email' />
+                        <a className='btn-newsletter'>¡Recibir ofertas!</a>
+                    </div>
                 </div>
                 <div className='child-container-footer'>
                     {/* <Image width="80" height="80" src="/logo-briptravel.png" alt="logo Briptravel" /> */}

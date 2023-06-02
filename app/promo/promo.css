@@ -62,7 +62,7 @@
     justify-content: space-between;
 }
 
-.child-container-call-agente h3{
+.child-container-call-agente h3 {
     font-size: 1.2em;
     line-height: 1.3em;
     color: #262626;
@@ -78,4 +78,15 @@
     font-weight: 700;
     transition: 200ms;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+@media (max-width: 412px) {
+
+    .nosotros-tittle-section h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.5em;
+        color: #262626;
+    }
 }

@@ -92,3 +92,13 @@
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+@media (max-width: 412px) {
+
+    .nosotros-tittle-section h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.3em;
+        color: #262626;
+    }
+}
