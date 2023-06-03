@@ -18,7 +18,7 @@
 span.swiper-pagination-bullet {
     width: 55px !important;
     border-radius: 5px !important;
-    background-color: #008af3a3;
+    background-color: #1d1d1dd9;
 }
 
 .swiper-pagination-bullet-active {
@@ -31,5 +31,9 @@ span.swiper-pagination-bullet {
     .brip-hero-slide-img {
         height: 250px;
         object-fit: cover;
+    }
+
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+        bottom: 15px;
     }
 }
