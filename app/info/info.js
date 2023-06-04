@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import './info.css'
 
 export default function Info() {
@@ -6,25 +7,39 @@ export default function Info() {
             <div className='container-info'>
                 <div className='info-tittle-section'>
                     <h2>Conectando personas <br></br>con destinos extraordinarios</h2>
-                    <p>Permítenos llevarte a un viaje lleno de descubrimientos, aventuras y momentos memorables.</p>
+                    <p>Permítenos llevarte a un viaje lleno de descubrimientos, <br></br> aventuras y momentos memorables.</p>
                 </div>
                 <div className='child-container-info'>
                     <div className='container-list-tips'>
                         <div>
-                            <h3>Experiencias turísticas y tours personalizados.</h3>
-                            <p>Nuestros tours son cuidadosamente diseñados para llevarte a destinos asombrosos, donde podrás sumergirte en la cultura, la historia y la belleza de cada lugar. Ya sea que estés buscando un escape relajante en una playa paradisíaca, una aventura llena de emociones en la naturaleza o una inmersión en la riqueza cultural de una ciudad vibrante, tenemos el tour perfecto para ti.</p>
+                            <h3 className='tittle-tips'>Experiencias turísticas y <span>tours</span> personalizados.</h3>
+                            <p className='text-tips'>Nuestros tours son cuidadosamente diseñados para llevarte a destinos asombrosos, donde podrás sumergirte en la cultura, la historia y la belleza de cada lugar. Ya sea que estés buscando un escape relajante en una playa paradisíaca, una aventura llena de emociones en la naturaleza o una inmersión en la riqueza cultural de una ciudad vibrante, tenemos el tour perfecto para ti.</p>
                         </div>
                         <div>
-                            <h3>Nuestro equipo de expertos en viajes a tu servicio.</h3>
-                            <p>Nuestros agentes están altamente capacitados y tienen un amplio conocimiento de los destinos que ofrecemos. Están listos para brindarte asesoramiento y recomendaciones para que tu viaje sea verdaderamente único y memorable.</p>
+                            <h3 className='tittle-tips'>Nuestro equipo de expertos en <span>viajes</span> a tu servicio.</h3>
+                            <p className='text-tips'>Nuestros agentes están altamente capacitados y tienen un amplio conocimiento de los destinos que ofrecemos. Están listos para brindarte asesoramiento y recomendaciones para que tu viaje sea verdaderamente único y memorable.</p>
                         </div>
                         <div>
-                            <h3>Sumérgete en una aventura inolvidable con <span>Briptravel</span></h3>
-                            <p>Estamos emocionados de ser parte de tu próxima aventura y ayudarte a crear recuerdos que durarán toda la vida. En Briptravel, creemos que el mundo está lleno de tesoros por descubrir, y estamos aquí para guiarte en cada paso del camino. ¡Empecemos a planificar tu próximo viaje juntos!</p>
+                            <h3 className='tittle-tips'>Sumérgete en una aventura inolvidable con <span>Briptravel</span></h3>
+                            <p className='text-tips'>Estamos emocionados de ser parte de tu próxima aventura y ayudarte a crear recuerdos que durarán toda la vida. En Briptravel, creemos que el mundo está lleno de tesoros por descubrir, y estamos aquí para guiarte en cada paso del camino. <br></br> ¡Empecemos a planificar tu próximo viaje juntos!</p>
                         </div>
                     </div>
                     <div className='img-info-preg-frecuentes'>
-                        <img width={350} height={420} src='./maleta-brip.png' />
+                        <img width={350} height={420} src='./info-puente.jpg' />
+                    </div>
+                </div>
+
+
+                <div className='container-call-agente'>
+                    <div className='child-container-call-agente'>
+                        <div>
+                            {/* <lord-icon style={{ width: "70px", height: "70px" }} trigger="loop" src="./call-contacto.json"> </lord-icon> */}
+                            <div>
+                                <h3>Agente Briptravel, ¡Comprá con atención personalizada!</h3>
+                                <p>Accede a nuestros canales y recibe una atención exclusiva para planificar tu viaje.</p>
+                            </div>
+                        </div>
+                        <Link className='btn-call-agente' href="/contacto">Contactarme</Link>
                     </div>
                 </div>
             </div>

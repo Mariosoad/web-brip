@@ -23,6 +23,10 @@
     color: #262626;
 }
 
+.nosotros-tittle-section h2 span{
+    color: #0089F3;
+}
+
 .nosotros-tittle-section p {
     font-size: 1.2em;
     font-weight: 400;
@@ -92,9 +96,14 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.nextui-collapse-icon{
+    width: 26px !important;
+    height: 26px !important;
+}
+
 @media (max-width: 412px) {
     .container-nosotros {
-        padding: 20px 0px;
+        padding: 40px 0px;
     }
 
     .nosotros-tittle-section h2 {
@@ -110,11 +119,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 20px;
+        row-gap: 0px;
     }
 
     .container-dropdow {
         width: 85% !important;
+        padding: 0px !important;
     }
 
     .container-dropdow h3 {
@@ -124,10 +134,11 @@
     .img-preg-frecuentes {
         width: 100%;
         padding: 20px 0px;
+        align-items: center;
     }
 
     .img-preg-frecuentes img {
-        width: 80%;
+        width: 85%;
         height: 200px;
         object-fit: cover;
         border-radius: 10px;

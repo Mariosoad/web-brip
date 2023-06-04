@@ -21,18 +21,6 @@ export default function Promo() {
                         </Link>
                     </div>
                 </div>
-                <div className='container-call-agente'>
-                    <div className='child-container-call-agente'>
-                        <div>
-                            {/* <lord-icon style={{ width: "70px", height: "70px" }} trigger="loop" src="./call-contacto.json"> </lord-icon> */}
-                            <div>
-                                <h3>Agente Briptravel, ¡Comprá con atención personalizada!</h3>
-                                <p>Accede a nuestros canales y recibe una atención exclusiva para planificar tu viaje </p>
-                            </div>
-                        </div>
-                        <Link className='btn-call-agente' href="#">Ver canales</Link>
-                    </div>
-                </div>
             </div>
         </>
     )
