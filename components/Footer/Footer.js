@@ -27,7 +27,7 @@ export default function Footer() {
                             <p>Tu agencia de viajes en todo el mundo.</p>
                         </div> */}
                         <div>
-                            <h4><FaPhoneAlt className='icon-tittle-footer' /><strong>¿Necesitas ayuda?</strong></h4>
+                            <h3><FaPhoneAlt className='icon-tittle-footer' /><strong>¿Necesitas ayuda?</strong></h3>
                             <div className='flex-brip'>
                                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0">
                                     <img width={32} height={18} src="./icon-peru.png" />
