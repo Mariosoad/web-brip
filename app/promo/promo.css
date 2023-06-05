@@ -134,7 +134,7 @@
 
     .promo-tittle-section h2 {
         margin: 0px 20px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 700;
         line-height: 1.3em;
         color: #262626;
@@ -172,6 +172,12 @@
         display: flex;
         flex-direction: column;
         row-gap: 20px;
+    }
+
+    .child-container-call-agente p {
+        font-size: 1em;
+        line-height: 1.3em;
+        color: #ffffff;
     }
 
     .child-container-call-agente div:first-child {
