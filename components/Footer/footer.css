@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .child-container-footer {
     width: 85%;
     height: 100%;
@@ -19,6 +20,7 @@
     align-items: flex-start;
     row-gap: 40px;
 }
+
 .container-info-footer {
     width: 100%;
     display: flex;
@@ -26,6 +28,7 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .container-info-footer div {
     width: 20%;
     display: flex;
@@ -34,19 +37,30 @@
     justify-content: center;
     row-gap: 5px;
 }
-.container-info-footer div h4{
+
+.container-info-footer div h4 {
     padding-bottom: 10px;
 }
+
 .container-info-footer div p {
     font-size: 0.9em;
 }
-.flex-brip{
+
+.flex-brip {
     width: 100% !important;
     display: flex !important;
     flex-direction: row !important;
     align-items: center !important;
     justify-content: flex-start !important;
     font-size: 0.85em;
+    column-gap: 5px;
+}
+
+.flex-brip a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
     column-gap: 5px;
 }
 
@@ -67,57 +81,64 @@
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.container-newsletter p{
+
+.container-newsletter p {
     font-size: 2em;
     font-weight: bold;
     color: #262626;
 }
-.container-newsletter input{
+
+.container-newsletter input {
     width: 50%;
-    height: 42px;
-    border-radius: 10px;
+    height: 45px;
+    font-size: 1.2em !important;
+    border-radius: 10px 0px 0px 10px;
     text-indent: 15px;
     outline: none;
     border: 1px solid grey;
 }
-.container-newsletter input::placeholder{
-    font-size: 1.1em !important;
-}
-.child-container-newsletter{
+
+.child-container-newsletter {
     width: 50%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-.child-container-newsletter input{
-    border: 1px solid grey;
+.child-container-newsletter input {
+    border: 1px solid #2a2a2aba;
     margin-right: -10px;
     border-right: transparent;
     border-radius: 10px 0px 0px 10px;
 }
-.container-newsletter .btn-newsletter{
+
+.container-newsletter .btn-newsletter {
     padding: 12px 30px;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     outline: none;
-    border: 1px solid transparent;
+    border: 1px solid #2a2a2aba;
+    border-left: 0px solid transparent;
     background-color: #FEFC14;
     color: black;
     font-weight: 700;
     font-size: 1.2em;
     transition: 200ms;
 }
-.container-newsletter .btn-newsletter:hover{
+
+.container-newsletter .btn-newsletter:hover {
     padding: 12px 30px;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     outline: none;
     background-color: #0089F3;
-    border: 1px solid #0089F3;
+    /* border: 1px solid #0089F3; */
+    border: 1px solid #2a2a2adb;
+    border-left: 0px solid transparent;
     color: white;
     font-weight: 700;
     transition: 200ms;
 }
+
 .child-footer {
     width: 100%;
     height: 50px;
@@ -127,8 +148,77 @@
     text-align: center;
     border-radius: 10px;
     font-size: 0.8em;
-    font-weight: 300;
+    font-weight: 400;
     color: black;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media (max-width: 412px) {
+    .container-footer {
+        margin-top: 140px;
+        height: auto;
+    }
+
+    .container-newsletter {
+        margin-top: -80px;
+        flex-direction: column;
+    }
+
+    .child-container-footer {
+        width: 85%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        row-gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .container-info-footer div h4 {
+        padding-bottom: 0px;
+    }
+
+    .child-container-newsletter {
+        width: 100%;
+    }
+
+    .child-container-newsletter input {
+        width: 100%;
+    }
+
+    .container-newsletter p {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #262626;
+    }
+
+    .container-newsletter {
+        height: 170px;
+    }
+
+    .container-newsletter .btn-newsletter {
+        padding: 12px;
+        border-radius: 0px 10px 10px 0px;
+        font-weight: 700;
+        font-size: 1.2em;
+        transition: 200ms;
+    }
+
+    .container-info-footer div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 5px;
+    }
+
+    .container-info-footer {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
 }

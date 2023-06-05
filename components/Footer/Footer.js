@@ -10,7 +10,7 @@ export default function Footer() {
                     <p>Ofertas exclusivas por email</p>
                     <div className='child-container-newsletter'>
                         <input placeholder='Ingrese su email' />
-                        <a className='btn-newsletter'>¡Recibir ofertas!</a>
+                        <a className='btn-newsletter'>Subscribirme</a>
                     </div>
                 </div>
                 <div className='child-container-footer'>
@@ -21,12 +21,17 @@ export default function Footer() {
                         </div> */}
                         <div>
                             <h4><strong>¿Necesitas ayuda?</strong></h4>
-                            <div className='flex-brip'><a href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0">
-                                <img width={32} height={18} src="./icon-peru.png" />
-                                +51 14800534</a>
+                            <div className='flex-brip'>
+                                <a href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0">
+                                    <img width={32} height={18} src="./icon-peru.png" />
+                                    +51 14800534
+                                </a>
                             </div>
-                            <div className='flex-brip'> <img width={32} height={34} src="./icon-arg.svg" />
-                                <a href="https://api.whatsapp.com/send/?phone=5491152638334&amp;text&amp;type=phone_number&amp;app_absent=0">+54 1152638334</a>
+                            <div className='flex-brip'>
+                                <a href="https://api.whatsapp.com/send/?phone=5491152638334&amp;text&amp;type=phone_number&amp;app_absent=0">
+                                    <img width={32} height={34} src="./icon-arg.svg" />
+                                    +54 1152638334
+                                </a>
                             </div>
                         </div>
                         <div>

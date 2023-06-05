@@ -31,17 +31,17 @@ export default function Hero() {
                 <SwiperSlide>
                     <div className='brip-hero-gradient'></div>
                     <img className='brip-hero-slide-img' src='./travel-1.jpg' />
-                    <h1 className='brip-hero-tittle'>Soy el título 1 de presentacion</h1>
+                    <h1 className='brip-hero-tittle'>Esta es la promo 1 de hoy</h1>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='brip-hero-gradient'></div>
                     <img className='brip-hero-slide-img' src='./travel-2.webp' />
-                    <h1 className='brip-hero-tittle'>Soy el título 2 de presentacion</h1>
+                    <h1 className='brip-hero-tittle'>Esta es la promo 2 de hoy</h1>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='brip-hero-gradient'></div>
                     <img className='brip-hero-slide-img' src='./travel-3.jpg' />
-                    <h1 className='brip-hero-tittle'>Soy el título 3 de presentacion</h1>
+                    <h1 className='brip-hero-tittle'>Esta es la promo 3 de hoy</h1>
                 </SwiperSlide>
 
 

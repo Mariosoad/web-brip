@@ -125,8 +125,10 @@
     }
 
     .container-promo .container-banners {
+        width: 100%;
         margin-top: 0px;
         padding: 40px 0px;
+        padding-bottom: 0px !important;
         row-gap: 20px;
     }
 
@@ -161,6 +163,7 @@
         width: 85%;
         height: auto;
         padding: 20px;
+        margin-top: 20px;
         flex-direction: column;
     }
 

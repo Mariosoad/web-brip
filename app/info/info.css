@@ -24,7 +24,7 @@
 }
 
 .info-tittle-section p {
-    width: 70%;
+    width: 50%;
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.2em;
@@ -48,24 +48,24 @@
     row-gap: 40px;
 }
 
-.container-list-tips div{
+.container-list-tips div {
     border-left: 3px solid #FFFE48;
     padding-left: 20px;
 }
 
-.tittle-tips{
+.tittle-tips {
     font-size: 1.3em;
     line-height: 1.3em;
     font-weight: 600;
 }
 
-.tittle-tips span{
+.tittle-tips span {
     font-weight: 700;
     color: #0089F3;
 }
 
 
-.text-tips{
+.text-tips {
     font-size: 1.1em;
     line-height: 1.3em;
     font-weight: 400;
@@ -90,6 +90,13 @@
 @media (max-width: 412px) {
     .container-info {
         padding: 20px 0px;
+        row-gap: 20px;
+    }
+
+    .info-tittle-section {
+        width: 85%;
+        align-items: flex-start;
+        text-align: left;
     }
 
     .info-tittle-section h2 {
@@ -99,18 +106,39 @@
         color: #262626;
     }
 
+    .info-tittle-section p {
+        width: 100%;
+        font-size: 1.2em;
+        font-weight: 400;
+        line-height: 1.2em;
+    }
+
     .child-container-info {
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 20px;
     }
 
+    .container-list-tips {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .container-list-tips div {
+        border-left: 3px solid #FFFE48;
+        padding-left: 15px;
+    }
+
     .img-info-preg-frecuentes {
         width: 100%;
-        padding: 40px 0px;
+        padding: 20px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;

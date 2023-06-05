@@ -7,7 +7,7 @@ export default function Info() {
             <div className='container-info'>
                 <div className='info-tittle-section'>
                     <h2>Conectando personas <br></br>con destinos extraordinarios</h2>
-                    <p>Permítenos llevarte a un viaje lleno de descubrimientos, <br></br> aventuras y momentos memorables.</p>
+                    <p>Permítenos llevarte a un viaje lleno de descubrimientos, aventuras y momentos memorables.</p>
                 </div>
                 <div className='child-container-info'>
                     <div className='container-list-tips'>
