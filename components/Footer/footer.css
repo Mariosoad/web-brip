@@ -161,6 +161,7 @@
     }
 
     .container-newsletter {
+        height: 150px;
         margin-top: -80px;
         flex-direction: column;
     }
@@ -192,10 +193,6 @@
         font-size: 1.5em;
         font-weight: bold;
         color: #262626;
-    }
-
-    .container-newsletter {
-        height: 170px;
     }
 
     .container-newsletter .btn-newsletter {
