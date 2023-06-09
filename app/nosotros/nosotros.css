@@ -105,8 +105,11 @@
     .container-nosotros {
         padding: 40px 0px;
     }
-
+    .nosotros-tittle-section{
+        text-align: center;
+    }
     .nosotros-tittle-section h2 {
+        margin: 0px 35px;
         font-size: 1.3em;
         font-weight: 700;
         line-height: 1.3em;

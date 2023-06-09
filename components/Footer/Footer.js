@@ -21,13 +21,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='child-container-footer'>
-                    {/* <Image width="80" height="80" src="/logo-briptravel.png" alt="logo Briptravel" /> */}
                     <div className='container-info-footer'>
-                        {/* <div>
-                            <p>Tu agencia de viajes en todo el mundo.</p>
-                        </div> */}
                         <div>
-                            <h3><FaPhoneAlt className='icon-tittle-footer' /><strong>¿Necesitas ayuda?</strong></h3>
+                            <h4><FaPhoneAlt className='icon-tittle-footer' /><strong>¿Necesitas ayuda?</strong></h4>
                             <div className='flex-brip'>
                                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0">
                                     <img width={32} height={18} src="./icon-peru.png" />
@@ -43,8 +39,8 @@ export default function Footer() {
                         </div>
                         <div>
                             <h4><strong>Contactanos</strong></h4>
-                            <p><HiMail className='icon-footer-text'/>info@briptravel.com</p>
-                            <p><HiMail className='icon-footer-text'/>reservas@briptravel.com</p>
+                            <p><HiMail className='icon-footer-text' />info@briptravel.com</p>
+                            <p><HiMail className='icon-footer-text' />reservas@briptravel.com</p>
                         </div>
                         <div>
                             <h4><strong>Dirección</strong></h4>
@@ -52,7 +48,7 @@ export default function Footer() {
                             <p><FaMapMarkerAlt className='icon-footer-location' />Av. Corrientes 2451</p>
                         </div>
                         <div>
-                            <h4><strong>Redes sociales</strong></h4>
+                            <h4><strong>Nuestras Redes</strong></h4>
                             <a target="_blank" class="nombre-redes" href="https://www.facebook.com/bripargentina"><AiFillFacebook className='icon-footer-insta' />Facebook Briptravel</a>
                             <a target="_blank" class="nombre-redes" href="https://www.instagram.com/bripargentina/"><AiFillInstagram className='icon-footer-insta' />Instagram Brip Travel</a>
                         </div>

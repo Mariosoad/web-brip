@@ -12,6 +12,17 @@ import "swiper/css/navigation";
 import 'swiper/css/effect-fade';
 import './hero.css'
 
+const slides = [{
+    image: './travel-4.jpg',
+    tittle: 'Encuentra tu vuelo más barato hoy!'
+},{
+    image: './travel-6.jpg',
+    tittle: 'Encuentra tu vuelo más barato hoy 2!'
+},{
+    image: './travel-7.jpg',
+    tittle: 'Encuentra tu vuelo más barato hoy 3!'
+}]
+
 export default function Hero() {
     return (
         <>
@@ -28,23 +39,13 @@ export default function Hero() {
                 modules={[Autoplay, Pagination, Navigation, EffectFade]}
                 effect="fade"
             >
-                <SwiperSlide>
-                    <div className='brip-hero-gradient'></div>
-                    <img className='brip-hero-slide-img' src='./travel-1.jpg' />
-                    <h1 className='brip-hero-tittle'>Esta es la promo 1 de hoy</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='brip-hero-gradient'></div>
-                    <img className='brip-hero-slide-img' src='./travel-2.webp' />
-                    <h1 className='brip-hero-tittle'>Esta es la promo 2 de hoy</h1>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='brip-hero-gradient'></div>
-                    <img className='brip-hero-slide-img' src='./travel-3.jpg' />
-                    <h1 className='brip-hero-tittle'>Esta es la promo 3 de hoy</h1>
-                </SwiperSlide>
-
-
+                {slides.map(({image, tittle, index }) => (
+                    <SwiperSlide>
+                        <div className='brip-hero-gradient'></div>
+                        <img className='brip-hero-slide-img' src={image} />
+                        <h1 className='brip-hero-tittle'>{tittle}</h1>
+                    </SwiperSlide>
+                ))}
             </Swiper>
         </>
     )

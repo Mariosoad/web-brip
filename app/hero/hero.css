@@ -18,6 +18,7 @@
     width: 100%;
     height: 80vh;
     border-radius: 10px;
+    margin-bottom: -3px;
 }
 
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
@@ -60,7 +61,7 @@ span.swiper-pagination-bullet {
 
     .brip-hero-tittle {
         width: 70%;
-        font-size: 1.8em;
+        font-size: 1.5em;
         font-weight: 700;
         line-height: 1.2em;
         color: rgb(255, 255, 255) !important;

@@ -14,7 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+        <meta name="robots" content="noindex,nofollow" />
+        <link rel="icon" href="./icon-briptravel.png" />
       </head>
       <body className={inter.className}>
         <Navigation />

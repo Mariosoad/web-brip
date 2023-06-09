@@ -48,7 +48,7 @@
 
 .brip-promo-img {
     width: 100%;
-    height: 210px;
+    height: 260px;
     cursor: pointer;
     border-radius: 10px;
     transform: scale(1);
@@ -154,8 +154,8 @@
     }
 
     .brip-promo-img {
-        height: 175px;
-        object-fit: cover;
+        height: 180px;
+        /* object-fit: cover; */
     }
 
     /*CALL AGENTE*/
@@ -171,13 +171,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
-    }
-
-    .child-container-call-agente p {
-        font-size: 1em;
-        line-height: 1.3em;
-        color: #ffffff;
+        row-gap: 10px;
     }
 
     .child-container-call-agente div:first-child {
@@ -185,12 +179,19 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        row-gap: 5px;
     }
 
     .child-container-call-agente h3 {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.3em;
         color: white;
+    }
+
+    .child-container-call-agente p {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        color: #ffffff;
     }
 
     .btn-call-agente {
@@ -199,7 +200,7 @@
         outline: none;
         background-color: #FEFC14;
         border: 1px solid #FEFC14;
-        color: black;
+        color: #262626;
         font-weight: 700;
         transition: 200ms;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

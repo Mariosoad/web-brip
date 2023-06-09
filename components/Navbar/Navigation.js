@@ -8,11 +8,11 @@ export default function Navigation() {
     <div className="container-navigation">
       <header className="navigation">
         <div>
-          <Image width="80" height="80" src="/logo-briptravel.png" alt="logo Briptravel" />
+          <Image className="img-logo-nav" width="90" height="65" src="/logo-brip-pngg.png" alt="logo Briptravel" />
         </div>
         <nav className="nav-container">
           <ul>
-            <li>Idioma</li>
+            {/* <li>Idioma</li> */}
             <li>Iniciar sesión</li>
           </ul>
         </nav>

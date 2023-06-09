@@ -69,7 +69,12 @@ ul li:hover {
 @media (max-width: 412px) {
     .container-navigation {
         width: 100%;
-        height: 100px;
+        height: 85px;
+    }
+
+    .img-logo-nav{
+        width: 65px;
+        height: 45px;
     }
 
     .navigation {
