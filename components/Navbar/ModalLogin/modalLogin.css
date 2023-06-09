@@ -1,0 +1,34 @@
+.btn-open-modal {
+    box-shadow: none !important;
+    background-color: #0089F3 !important;
+}
+
+.nextui-c-iWjDFM .nextui-button-text {
+    column-gap: 5px;
+}
+
+.tittle-modal-login {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-weight: 400x;
+}
+
+.tittle-modal-login span {
+    color: #0089F3;
+}
+
+.nextui-c-hdxYb {
+    color: transparent !important;
+    pointer-events: none !important;
+    background-color: transparent !important;
+}
+
+.icon-avion-login {
+    font-size: 25em;
+    position: absolute;
+    z-index: 999999;
+    rotate: 60deg;
+    top: -75px;
+    left: -60px;
+    opacity: 0.04;
+}

@@ -1,5 +1,6 @@
 
 import Image from "next/image"
+import ModalLogin from "./ModalLogin/ModalLogin";
 import './navbar.css'
 
 export default function Navigation() {
@@ -13,7 +14,7 @@ export default function Navigation() {
         <nav className="nav-container">
           <ul>
             {/* <li>Idioma</li> */}
-            <li>Iniciar sesión</li>
+            <ModalLogin />
           </ul>
         </nav>
       </header>
