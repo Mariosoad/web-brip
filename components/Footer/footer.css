@@ -164,6 +164,7 @@
     margin-right: -10px;
     border-right: transparent;
     border-radius: 10px 0px 0px 10px;
+    background-color: white !important;
 }
 
 .container-newsletter .btn-newsletter {
@@ -260,6 +261,16 @@
         border-radius: 0px 10px 10px 0px;
         font-weight: 700;
         font-size: 1em;
+        transition: 200ms;
+    }
+
+    .container-newsletter .btn-newsletter:hover {
+        padding: 12px;
+        border-radius: 0px 10px 10px 0px;
+        outline: none;
+        background-color: #0089F3;
+        color: white;
+        font-weight: 700;
         transition: 200ms;
     }
 
