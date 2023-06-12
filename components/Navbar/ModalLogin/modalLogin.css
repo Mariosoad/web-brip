@@ -26,7 +26,6 @@
 .icon-avion-login {
     font-size: 25em;
     position: absolute;
-    z-index: 999999;
     rotate: 60deg;
     top: -75px;
     left: -60px;

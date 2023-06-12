@@ -39,7 +39,7 @@ export default function Info() {
                                 <p>Llamanos y recibe una atención exclusiva para planificar tu viaje.</p>
                             </div>
                         </div>
-                        <Link className='btn-call-agente' href="/contacto">Contactarme</Link>
+                        <a className='btn-call-agente' href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0" target='_blank' >Contactarme</a>
                     </div>
                 </div>
             </div>
