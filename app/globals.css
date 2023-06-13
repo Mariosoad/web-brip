@@ -70,7 +70,8 @@
 }
 
 html{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
+  font-family: '__Inter_0ec1f4', '__Inter_Fallback_0ec1f4' !important;
 }
 
 html,

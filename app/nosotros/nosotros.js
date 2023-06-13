@@ -5,7 +5,7 @@ import Dropdown from './dropdown'
 export default function Nosotros() {
     return (
         <>
-            <div className='container-nosotros'>
+            <div id='ayuda-briptravel' className='container-nosotros'>
                 <div className='nosotros-tittle-section'>
                     <h2 data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                         Descubre el mundo con <span>Briptravel</span>

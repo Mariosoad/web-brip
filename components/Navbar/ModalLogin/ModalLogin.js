@@ -7,7 +7,8 @@ import { BsAirplane } from 'react-icons/bs';
 
 import './modalLogin.css';
 
-export default function ButtonModalLogin() {
+export default function ButtonModalLogin(props) {
+    const dataTittle = props.tittle
     const [visible, setVisible] = useState(false);
     const handler = () => setVisible(true);
 
@@ -18,7 +19,7 @@ export default function ButtonModalLogin() {
 
     return (
         <div>
-            <Button className="btn-open-modal" auto shadow onPress={handler}> <FaUser /> Iniciar sesión </Button>
+            <Button className="btn-open-modal" auto shadow onPress={handler}> <FaUser /> {dataTittle} </Button>
             <Modal
                 closeButton
                 preventClose
