@@ -5,8 +5,10 @@ export default function Info() {
     return (
         <>
             <div className='container-info'>
-                <div className='info-tittle-section'>
-                    <h2>Conectando personas <br></br>con destinos extraordinarios</h2>
+                <div className='info-tittle-section' data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                    <h2 data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        Conectando personas <br></br>con destinos extraordinarios
+                    </h2>
                     <p>Permítenos llevarte a un viaje lleno de descubrimientos, aventuras y momentos memorables.</p>
                 </div>
                 <div className='child-container-info'>
@@ -39,7 +41,7 @@ export default function Info() {
                                 <p>Llamanos y recibe una atención exclusiva para planificar tu viaje.</p>
                             </div>
                         </div>
-                        <a className='btn-call-agente' href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0" target='_blank' >Contactarme</a>
+                        <a data-aos="fade-up" className='btn-call-agente' href="https://api.whatsapp.com/send/?phone=5114800534&amp;text&amp;type=phone_number&amp;app_absent=0" target='_blank' >Contactarme</a>
                     </div>
                 </div>
             </div>
