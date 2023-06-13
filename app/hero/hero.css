@@ -20,6 +20,8 @@
     height: 80vh;
     border-radius: 10px;
     margin-bottom: -3px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {

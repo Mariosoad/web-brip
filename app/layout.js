@@ -12,10 +12,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className='scroll-smooth'>
       <head>
         <meta name="robots" content="noindex,nofollow" />
         <link rel="icon" href="./icon-briptravel.png" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       </head>
       <body className={inter.className}>
         <Navigation />

@@ -32,7 +32,7 @@ export default function Info() {
 
                 <div className='container-call-agente'>
                     <div className='child-container-call-agente'>
-                        <div>
+                        <div id='ayuda-briptravel'>
                             {/* <lord-icon style={{ width: "70px", height: "70px" }} trigger="loop" src="./call-contacto.json"> </lord-icon> */}
                             <div>
                                 <h3>Agente Briptravel, ¡Comprá con atención personalizada!</h3>

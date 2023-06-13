@@ -7,7 +7,7 @@ import { BsAirplane } from 'react-icons/bs';
 
 import './modalLogin.css';
 
-export default function ModalLogin() {
+export default function ButtonModalLogin() {
     const [visible, setVisible] = useState(false);
     const handler = () => setVisible(true);
 
@@ -22,6 +22,7 @@ export default function ModalLogin() {
             <Modal
                 closeButton
                 preventClose
+                width="500px"
                 aria-labelledby="modal-title"
                 open={visible}
                 onClose={closeHandler}
