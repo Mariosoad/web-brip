@@ -39,13 +39,13 @@ export default function Footer() {
                         </div>
                         <div>
                             <h4><strong>Contactanos</strong></h4>
-                            <p><HiMail className='icon-footer-text' />info@briptravel.com</p>
-                            <p><HiMail className='icon-footer-text' />reservas@briptravel.com</p>
+                            <a class="nombre-redes" href='mailto:info@briptravel.com'><HiMail className='icon-footer-text' /> info@briptravel.com</a>
+                            <a class="nombre-redes" href='mailto:reservas@briptravel.com'><HiMail className='icon-footer-text' /> reservas@briptravel.com</a>
                         </div>
                         <div>
                             <h4><strong>Dirección</strong></h4>
-                            <p><FaMapMarkerAlt className='icon-footer-location' />Av. Corrientes 3447</p>
-                            <p><FaMapMarkerAlt className='icon-footer-location' />Av. Corrientes 2451</p>
+                            <a class="nombre-redes" href='https://goo.gl/maps/qSoaKS16roGstpKR7'><FaMapMarkerAlt className='icon-footer-location' />Av. Corrientes 3447</a>
+                            <a class="nombre-redes" href='https://goo.gl/maps/fEL4twrcZMTRnVUo6'><FaMapMarkerAlt className='icon-footer-location' />Av. Corrientes 2451</a>
                         </div>
                         <div>
                             <h4><strong>Nuestras Redes</strong></h4>
