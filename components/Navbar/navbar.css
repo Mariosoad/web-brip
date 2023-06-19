@@ -122,7 +122,8 @@ ul.nextui-c-jklhtj.nextui-c-dGYPDG.nextui-c-PJLV.nextui-c-dGYPDG-hHixqa-enableCu
 }
 
 .nextui-c-iTPCAT-VujqA-disableBlur-false .nextui-c-jklhtj:where(.nextui-c-ewlcFW) {
-    background: rgb(0 137 243 / 40%) !important;
+    background: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(20px);
 }
 
 li.nextui-c-kOXsPe.nextui-c-ektsXM.nextui-c-ektsXM-kJGdUE-activeColor-default.nextui-c-kOXsPe-ibscjfe-css.nextui-navbar-collapse-item {
@@ -164,7 +165,7 @@ li.nextui-c-kOXsPe.nextui-c-ektsXM.nextui-c-ektsXM-kJGdUE-activeColor-default.ne
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 512px) {
     .container-navigation {
         width: 100%;
         height: 80px;
