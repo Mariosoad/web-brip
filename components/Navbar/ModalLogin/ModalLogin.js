@@ -21,7 +21,6 @@ export default function ButtonModalLogin(props) {
         <div>
             <Button className="btn-open-modal" auto shadow onPress={handler}> <FaUser /> {dataTittle} </Button>
             <Modal
-                closeButton
                 preventClose
                 width="500px"
                 aria-labelledby="modal-title"
@@ -32,22 +31,21 @@ export default function ButtonModalLogin(props) {
                     <h3 className="tittle-modal-login">Inicia sesión o registrate para <br></br>acceder a tu perfil <span>Brip</span></h3>
                 </Modal.Header>
                 <Modal.Body>
-
                     <Input
-                        clearable
                         bordered
                         fullWidth
                         color="primary"
                         size="md"
                         placeholder="Email"
+                        className="modal-input"
                     />
                     <Input
-                        clearable
                         bordered
                         fullWidth
                         color="primary"
                         size="md"
                         placeholder="Contraseña"
+                        className="modal-input"
                     />
                     {/* <Row justify="space-between">
                         <Text size={14}>Forgot password?</Text>
